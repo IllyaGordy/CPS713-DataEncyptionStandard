@@ -1,16 +1,11 @@
-CPS713-DataEncyptionStandard
+CPS713 - Lab #1 - Data Encyption Standard
 
-/* CPS713 - Lab #1
- *      Building a mini-DES encryption/decryption
- *
- *      By: Illya Gordiyenko
- *
- *      The Code produces an input initially for the plaintext, the key and a default 
- *      null valued ciphertext. It then runs the encryption algorithm and produces the 
- *      final key. Comments are made though the code to make it easier to understand. 
- *      As well there is a function showbits to allow for easy bit level view of the 
- *      values.
- */
+Building a mini-DES encryption/decryption
+
+By: Illya Gordiyenko
+
+The Code produces an input initially for the plaintext, the key and a default null valued ciphertext. It then runs the encryption algorithm and produces the final key. Comments are made though the code to make it easier to understand. As well there is a function showbits to allow for easy bit level view of the values.
+
 ============================
 
 A mini Data Encryption Standard system
