@@ -32,10 +32,10 @@ The round function f uses the following expansion function E: E(b<sub>0</sub>b<s
 The result is XORed with the corresponding round key, and is inputed to the following S-box (m-DES uses only one S-box):
 
                 S
-14 4 13 1 2 15 11 8 3 10 6 12 5 9 0 7<br>
-0 15 7 4 14 2 13 1 10 6 12 11 9 5 3 8 <br>
-4 1 14 8 13 6 2 11 15 12 9 7 3 10 5 0 <br>
-15 12 8 2 4 9 1 7 5 11 3 14 10 0 6 13<br>
+14  4  13  1  2  15  11  8  3  10  6  12  5  9  0  7<br>
+0  15  7  4  14  2  13  1  10  6  12  11  9  5  3  8 <br>
+4  1  14  8  13  6  2  11  15  12  9  7  3  10  5  0 <br>
+15  12  8  2  4  9  1  7  5  11  3  14  10  0  6  13<br>
 
 The output of the S-box is the element in the table (4-bits) is determined by the input (the first and the last bit determines the row and the middle 4-bits determines the column), and will be permuted using the following transformation:
 
