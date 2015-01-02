@@ -30,3 +30,9 @@ Rn = Ln−1 ⊕ f(Rn−1,Kn)
 Where n ranges from 1 to 16, Kn is the n-th round key, and the output of the algorithm (i.e. the ciphertext) is R16L16.
 The round function f uses the following expansion function E: E(b<sub>0</sub>b<sub>1</sub>b<sub>2</sub>b<sub>3</sub>) = <sub>b3</sub>b<sub>0</sub>b<sub>1</sub>b<sub>2</sub>b<sub>3</sub>b<sub>1</sub>.
 The result is XORed with the corresponding round key, and is inputed to the following S-box (m-DES uses only one S-box):
+
+                S
+14 4 13 1 2 15 11 8 3 10 6 12 5 9 0 7
+0 15 7 4 14 2 13 1 10 6 12 11 9 5 3 8 
+4 1 14 8 13 6 2 11 15 12 9 7 3 10 5 0 
+15 12 8 2 4 9 1 7 5 11 3 14 10 0 6 13
