@@ -24,5 +24,5 @@ Enciphering Algorithm: m-DES is a Feistel cipher similar to DES, that is the 8-b
 Ln = Rn−1
 Rn = Ln−1 ⊕ f(Rn−1,Kn)
 Where n ranges from 1 to 16, Kn is the n-th round key, and the output of the algorithm (i.e. the ciphertext) is R16L16.
-The round function f uses the following expansion function E: E(b<sub>0</sub>b<sub>1</sub>b<sub>2</sub>b<sub>3</sub>) = b3</sub>b<sub>0</sub>b<sub>1</sub>b<sub>2</sub>b<sub>3</sub>b<sub>1</sub>.
+The round function f uses the following expansion function E: E(b<sub>0</sub>b<sub>1</sub>b<sub>2</sub>b<sub>3</sub>) = <sub>b3</sub>b<sub>0</sub>b<sub>1</sub>b<sub>2</sub>b<sub>3</sub>b<sub>1</sub>.
 The result is XORed with the corresponding round key, and is inputed to the following S-box (m-DES uses only one S-box):
