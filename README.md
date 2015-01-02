@@ -10,8 +10,8 @@ Assignment:
 <b>Mini-DES (m-DES)</b>: This block cipher is intended to mimic a simplified DES encryption algorithm. It is strongly recommended that you review your notes about DES from the lectures, the textbook, and the description of DES algorithm in FIPS 46. m-DES is an 8-bit block cipher that uses an 8-bit key (all the bits in the key are used in generating the 6-bit round keys). For simplicity, the initial IP and the final IP−1 permutations are NOT used in m-DES.
 
 Key Schedule: The key schedule of m-DES uses the following Permutation Choice 1 (PC1) in its initialization stage:
-12345678
-↓↓↓↓↓↓↓↓
+12345678<br>
+↓↓↓↓↓↓↓↓<br>
 23456781
 
 That is PC1 will map the first bit of the key to the second bit position, the second bit is moved to the third position, the third bit moved to the forth, and so on.
@@ -24,5 +24,5 @@ Enciphering Algorithm: m-DES is a Feistel cipher similar to DES, that is the 8-b
 Ln = Rn−1
 Rn = Ln−1 ⊕ f(Rn−1,Kn)
 Where n ranges from 1 to 16, Kn is the n-th round key, and the output of the algorithm (i.e. the ciphertext) is R16L16.
-The round function f uses the following expansion function E: E(b<sub>0</sub>b1b2b3) = b3b0b1b2b3b1.
+The round function f uses the following expansion function E: E(b<sub>0</sub>b<sub>1</sub>b<sub>2</sub>b<sub>3</sub>) = b3</sub>b<sub>0</sub>b<sub>1</sub>b<sub>2</sub>b<sub>3</sub>b<sub>1</sub>.
 The result is XORed with the corresponding round key, and is inputed to the following S-box (m-DES uses only one S-box):
