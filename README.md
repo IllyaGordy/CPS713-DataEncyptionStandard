@@ -10,6 +10,7 @@ Assignment:
 <b>Mini-DES (m-DES)</b>: This block cipher is intended to mimic a simplified DES encryption algorithm. It is strongly recommended that you review your notes about DES from the lectures, the textbook, and the description of DES algorithm in FIPS 46. m-DES is an 8-bit block cipher that uses an 8-bit key (all the bits in the key are used in generating the 6-bit round keys). For simplicity, the initial IP and the final IP−1 permutations are NOT used in m-DES.
 
 Key Schedule: The key schedule of m-DES uses the following Permutation Choice 1 (PC1) in its initialization stage:
+
 1 2 3 4 5 6 7 8<br>
 ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓<br>
 2 3 4 5 6 7 8 1
